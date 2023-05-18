@@ -1,0 +1,41 @@
+{
+    "perffarma": "PERFFARMA SUD",
+    "home-title": "Expert in commercial management between European pharmaceutical laboratories and Latin American pharmaceutical laboratory",
+    "home-subtitle": "Ethical Products, OTC, Food Supplements, Cosmetics, Medical Devices, Diagnostics",
+    "us": "Perffarma Sud assists European Pharmaceutical Laboratories in the search for partners for the distribution or licensing of their products in Latin America and provides support throughout the commercial management process",
+    "features": "Prospecting - sanitary registration - launch - sales monitoring and order placement",
+    "history": "Created in 2009 by Patrice Bayemi, former Pharmexport director, and developed with Bruno Schauenberg, Perffarma Sud offers commercial agent services throughout the Latin American market for the European pharmaceutical industry seeking partners in those territories.",
+    "specialization": "Specialized in commercial management in Latin America, Perffarma Sud currently manages more than 80 contracts in over 10 countries in various specialties (Ethical Products, OTC, Food Supplements, Cosmetics, Medical Devices, Diagnostics), primarily in Brazil, Mexico, Colombia, Chile, Peru, Ecuador.",
+    "service": "Services",
+    "services": {
+        "title": "High-quality and professional service provision for almost 15 years in Latin America.",
+        "subTitle": "Prospecting and identification of potential partners for all product lines in the pharmaceutical industry.",
+        "2": "Ethical Products / OTC / Food Supplements / Cosmetics / Medical Devices / Aesthetic products / Diagnostics.",
+        "3": "Validation of regulatory strategy for specific products or territories (Brazil) to validate project feasibility.",
+        "4": "Monitoring of distribution or licensing contract signing and supply processes between partners.",
+        "5": "Monitoring of sanitary registrations and, if applicable, trademark registration processes.",
+        "6": "Monitoring of product launch and entire commercial process once the product is launched.",
+        "7": "Intervention and management throughout the duration of the contract in the territory, providing commercial, logistical, or regulatory support.",
+        "8": "Special mission to search for partners for the export of South American laboratory products to Europe or Africa.",
+        "9": "Special sourcing missions for South American laboratories to find products."
+    },
+    "client": "Clients",
+    "clients-eu": {
+        "fra": "Athena Chemineau Sbs Substipharm Irati Delbert Idd Alept Todapharma Olympepharma ",
+        "ger": "Mdm ,Pharmazentrale",
+        "Esp": "Chemo"
+    },
+    "clients-lat": {
+        "arg" : "Megalabs",
+        "bol" : "South American Express - Crespal",
+        "bra" : "Biolab -Cristalia -Ems-Eurofarma-Globopharma-Hypera-Lupin-Pratidonaduzzi-Sanofi",
+        "chi" : "Dympharma-Faesfarma- Gardenhouse-Instituto Sanitas -Kampar-Megalabs-Reutter-Pasteur ",
+        "col" : "Exeltis-Euroetika-Faesfarma-Floralab-Gpcpharma-Humanbioscience-Licol-Nextpharma",
+        "ecu" : "Acromax-Cosmederm",
+        "mex": "Chinoin-Grupo Collins-Grupo Somar-Pisa",
+        "par": "Quimfa",
+        "per": "Acfarma-Bago Peru-Crespal-Intipharma-Labofta-Qmpharma",
+        "uru" : "Megalabs-Novophar"
+    },
+    "contact": "Contact"
+    }

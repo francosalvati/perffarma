@@ -1,0 +1,24 @@
+.contact_container{
+    width: 90%;
+    margin: auto;
+}
+
+
+.contact_container .social_networks{
+    width: 400px;
+}
+
+.contact_container .social_networks img{
+    width: 30px;
+    filter: hue-rotate(0deg) saturate(10000%) brightness(100%);
+}
+
+
+.contact-form_container{
+    width: 400px;
+    background: #eee;
+}
+
+.contact-form_container form input{
+    width: 300px;
+}
