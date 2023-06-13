@@ -3,7 +3,7 @@
 import './App.css'
 import 'primeflex/primeflex.css';
 import { Toolbar } from './pages/Header/ToolBar/Toolbar';
-import { Home } from './pages/home/Home';
+import { Home } from './pages/Home/Home';
 // import { Contact } from './pages/Contact/Contact';
 import { I18nextProvider } from 'react-i18next';
 import { Clients } from './pages/Clients/Clients';
