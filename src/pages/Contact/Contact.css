@@ -1,24 +1,33 @@
 .contact_container{
-    width: 90%;
+    width: 100%;
+    background: var(--primary);
     margin: auto;
+    min-height: 300px;
+    position: relative;
+    z-index: 500;
+}
+
+.contact_title{
+    padding: 40px;
+    padding-left: 150px;
+    font-size: 40px;
+    color: #fff;
 }
 
 
-.contact_container .social_networks{
-    width: 400px;
+.contact_action{
+    list-style: none;
+    min-width: 200px;
 }
 
-.contact_container .social_networks img{
-    width: 30px;
-    filter: hue-rotate(0deg) saturate(10000%) brightness(100%);
+.contact_action li {
+    font-size: 40px;
 }
 
-
-.contact-form_container{
-    width: 400px;
-    background: #eee;
-}
-
-.contact-form_container form input{
+.contact_form input{
     width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid var(--secondary);
+    background: var(--primary2);
 }

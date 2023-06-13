@@ -1,0 +1,51 @@
+.services_container {
+    margin: auto;
+    width: 100%;
+    padding: 30px;
+}
+
+.services_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.service_card {
+    font-size: 10px;
+}
+
+.service_card h3{
+    padding: 20px;
+}
+
+.services_icon {
+    color: var(--primary);
+    font-size: 40px;
+}
+
+
+.services_icon:hover {
+    color: var(--secondary);
+}
+
+@media screen and (min-width: 660px) {
+
+    .services_container{
+        display: grid;
+        place-content: center;
+    }
+    .services_grid {
+        display: grid;
+        grid-template-columns: repeat(3, 350px) ;
+        gap: 20px;
+    }
+
+
+    .service_card {
+        font-size: 20px;
+        padding: 30px;
+    }
+
+    .services_icon {
+        font-size: 60px;
+    }
+}

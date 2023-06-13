@@ -8,16 +8,12 @@
     "specialization": "Specialized in commercial management in Latin America, Perffarma Sud currently manages more than 80 contracts in over 10 countries in various specialties (Ethical Products, OTC, Food Supplements, Cosmetics, Medical Devices, Diagnostics), primarily in Brazil, Mexico, Colombia, Chile, Peru, Ecuador.",
     "service": "Services",
     "services": {
-        "title": "High-quality and professional service provision for almost 15 years in Latin America.",
-        "subTitle": "Prospecting and identification of potential partners for all product lines in the pharmaceutical industry.",
-        "2": "Ethical Products / OTC / Food Supplements / Cosmetics / Medical Devices / Aesthetic products / Diagnostics.",
-        "3": "Validation of regulatory strategy for specific products or territories (Brazil) to validate project feasibility.",
-        "4": "Monitoring of distribution or licensing contract signing and supply processes between partners.",
-        "5": "Monitoring of sanitary registrations and, if applicable, trademark registration processes.",
-        "6": "Monitoring of product launch and entire commercial process once the product is launched.",
-        "7": "Intervention and management throughout the duration of the contract in the territory, providing commercial, logistical, or regulatory support.",
-        "8": "Special mission to search for partners for the export of South American laboratory products to Europe or Africa.",
-        "9": "Special sourcing missions for South American laboratories to find products."
+        "tracking": "Tracking of health registrations and brand cases.",
+        "providing": "Providing quality and reliable services for almost 15 years in Latin America.",
+        "check": "Validation of regulatory strategy for special products or specific territories to assess project feasibility.",
+        "medicine": "Food Supplements / OTC / Cosmetics / Medical Devices / Diagnostics.",
+        "intervention": "Intervention and management throughout the duration of the contract in the territory.",
+        "mision": "Special sourcing missions for South American Laboratories."
     },
     "client": "Clients",
     "clients-eu": {

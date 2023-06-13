@@ -12,7 +12,9 @@
 
 
 
-  --red: #e81f2e;
+  --primary: #00344b;
+  --primary2: #114b6479;
+  --secondary: #00888a;
   --grey: #DDDFDE;
 }
 
@@ -20,6 +22,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
 }
 
 ::-webkit-scrollbar {

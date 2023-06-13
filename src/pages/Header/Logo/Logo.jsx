@@ -4,7 +4,7 @@ import logoUrl from '../../../images/logo.png'
 export const Logo = () => {
 
     return (
-        <a to={'home'} className='logo ml-4'>
+        <a href='#home' className='logo'>
             <img src={logoUrl} alt="" />
         </a>
     )

@@ -9,16 +9,12 @@
     "specialization": "Especializado en la gestión comercial en Latin America , Perffarma Sud administra hoy mas de 80 contrato en más de 10 país de la zona en diversas especialidad  (Producto Éticos, Otc , Food Supplement ,Cosmético, Medical Device ,Diagnostico), principalmente en  Brasil , México, Colombia, Chile , Perú , Ecuador.",
     "service": "Servicios",
     "services": {
-        "title": "Una prestación de servicio de calidad y serio desde casi 15 anos en Latino America.",
-        "subTitle": "Prospección y detección de partner posible por toda línea de producto del rubro farmacéutico.",
-        "2": "Producto Éticos / Otc /Food Supplement /Cosmético/  Medical Device / producto estético / Diagnostico.",
-        "3": "Validación de estrategia regulatoria por algún productos especiales o territorio especifico ( Brasil ) por validar factibilidad  de proyecto.",
-        "4": "Seguimiento de los proceso de firma de contrato de distribución o  licencia y supply entre los partners .",
-        "5": "Seguimiento de los proceso de registros sanitarios y si a caso de marca.",
-        "6": "Seguimiento del lanzamiento y de todo el proceso comercial una vece el producto lanzado.",
-        "7": "Intervención y gestión durante todo la duración del contrato en el territorio por todo soporte comercial, logístico o regulatorio.",
-        "8": "Misión especial de búsqueda de partner por la exportación de producto de laboratorio Sur Americano por Europa o Africa.",
-        "9": "Misiones especiales de sourcing de producto por Laboratorio Sur Americano."
+        "tracking": "Seguimiento de registros sanitarios y marcas.",
+        "providing": "Servicio de calidad y serio por casi 15 años en LatAm.",
+        "check": "Validación regulatoria para productos.",
+        "medicine": "OTC / Suplementos / Cosméticos / Dispositivos Médicos.",
+        "intervention": "Gestión integral (comercial, logístico, regulatorio).",
+        "mision": "Misiones especiales de sourcing por Lab. Suramericano."
     },
     "client": "Clientes",
     "clients-eu": {

@@ -1,13 +1,12 @@
-// import { Logo } from "../Logo/Logo"
+import { Logo } from "../Logo/Logo"
 import './Toolbar.css'
-import esp from '../../../icons/espana.png'
-import ing from '../../../icons/estados-unidos.png'
 import { useTranslation } from 'react-i18next'
-import  { useRef } from 'react';
+import { useState } from 'react'
+
 
 export const Toolbar = () => {
 
-    const toggle = useRef(null)
+    const [menu, setMenu] = useState(true)
 
     const { i18n, t } = useTranslation()
 
@@ -16,27 +15,29 @@ export const Toolbar = () => {
         i18n.changeLanguage(selectedLanguage)
     }
 
-    const handleMenu = () => {
-        console.log(toggle)
+
+    const toggleMenu = () => {
+        setMenu(!menu)
     }
+
+
     return (
-        <header className="flex justify-content-between align-items-center flex-1 ">
-            {/* <Logo /> */}
-            <button onClick={handleMenu} >Menu</button>
-            <nav className="nav">
-                <ul className='hide' ref={toggle}>
-                    <li><a to={''} className='logo'> {t('perffarma')} </a></li>
-                    <li><a to={''}>{t('service')}</a></li>
-                    <li><a to={''}>{t('client')}</a></li>
-                    <li><a to={''}>{t('contact')}</a></li>
+        <header className="flex justify-content-between align-items-center">
+            <button className={menu ? 'nav_button open' : 'nav_button '} onClick={toggleMenu}><i className="fa-solid fa-bars"></i> </button>
+            <span className='responsive-title m-0'><Logo /></span>
+            <nav className="nav show" >
+                <button className={menu ? 'close_button close' : 'close_button open'} onClick={toggleMenu}><i className="fa-solid fa-x"></i></button>
+                <ul className={menu ? 'nav_list close' : 'nav_list'}>
+                    <li></li>
+                    <li><a href="#service">{t('service')}</a></li>
+                    <li><a href="#client">{t('client')}</a></li>
+                    <li><a href="#contact">{t('contact')}</a></li>
+                    <li className="text-end flex justify-content-end w-full">
+                        <li onClick={() => { changeLenguage('es') }}>ES</li>
+                        <li onClick={() => { changeLenguage('en') }}>EN</li>
+                    </li>
                 </ul>
             </nav>
-            <div className="actions">
-                <ul className="flex justify-content-between">
-                    <li onClick={() => { changeLenguage('es') }}> <img src={esp} alt="" /></li>
-                    <li onClick={() => { changeLenguage('en') }}><img src={ing} alt="" /></li>
-                </ul>
-            </div>
         </header>
     )
 }

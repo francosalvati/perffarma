@@ -10,12 +10,10 @@ export const Home = () => {
     return (
 
         <div className="home_container flex justify-content-center">
-            <div className="home p-4">
-                <span>{t('perffarma')}</span>
-                <h1>{t('home-title')}</h1>
-                <h3>{t('home-subtitle')}</h3>
-                <div className='card_container flex align-items-end justify-content-end'>
-                    <div className='card m-2'>
+            <div className="home p-4 mt-5">
+                <h1 className='p-5'>{t('home-title')}</h1>
+                <div className='card_container flex align-items-end'>
+                    <div className='card m-2 '>
                         <h3 className='title mb-2'> + {t('client')}</h3>
                         <div className='text'>
                             Trabajamos con mas de 20 clientes de todo sud-america
