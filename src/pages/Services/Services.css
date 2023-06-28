@@ -1,8 +1,16 @@
+
+.services_title {
+    padding: 40px;
+    font-size: 40px;
+    color: #333;
+}
+
 .services_container {
     margin: auto;
     width: 100%;
     padding: 30px;
 }
+
 
 .services_grid {
     display: grid;
@@ -13,7 +21,7 @@
     font-size: 10px;
 }
 
-.service_card h3{
+.service_card h3 {
     padding: 20px;
 }
 
@@ -29,13 +37,20 @@
 
 @media screen and (min-width: 660px) {
 
-    .services_container{
+
+    .services_title {
+        padding-left: 150px;
+    }
+
+    
+    .services_container {
         display: grid;
         place-content: center;
     }
+
     .services_grid {
         display: grid;
-        grid-template-columns: repeat(3, 350px) ;
+        grid-template-columns: repeat(3, 350px);
         gap: 20px;
     }
 

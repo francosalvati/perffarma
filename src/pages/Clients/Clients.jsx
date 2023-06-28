@@ -8,7 +8,7 @@ export const Clients = () => {
     const { t } = useTranslation()
     return (
             <div className="client_container">
-                <h1 className='client-title p-4 m-0'> {t('client')}</h1>
+                <h2 className='client_title'> {t('client')}</h2>
             </div>
     )
 }

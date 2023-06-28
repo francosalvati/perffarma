@@ -1,5 +1,19 @@
 .client_container{
     width: 100%;
     margin: auto;
-    color: #fff;
+}
+
+
+.client_title {
+    padding: 40px;
+    font-size: 40px;
+    color: #333;
+}
+
+@media screen and (min-width: 660px) {
+
+    .client_title {
+        padding-left: 150px;
+    }
+
 }

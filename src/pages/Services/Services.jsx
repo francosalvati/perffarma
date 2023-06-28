@@ -1,8 +1,11 @@
 import './Services.css'
+import { useTranslation } from 'react-i18next'
 import { ServiceCard } from './serviceCard/ServiceCard'
 
 
 export const Services = () => {
+
+    const { t } = useTranslation()
 
     let services = [
         {
@@ -17,7 +20,7 @@ export const Services = () => {
             icon: 'fa-solid fa-square-check',
             text: "services.check"
         },
-        
+
         {
             icon: 'fa-solid fa-capsules',
             text: "services.medicine"
@@ -34,12 +37,15 @@ export const Services = () => {
 
 
     return (
-        <div className="services_container" id='service'>
-            <div className='services_grid'>
-                {
-                    services.map((s, index)=> ( <ServiceCard icon={ s.icon } text={ s.text } key={index}/> ))
-                }
+        <>
+            <h2 className="services_title">{t('service')}</h2>
+            <div className="services_container" id='service'>
+                <div className='services_grid'>
+                    {
+                        services.map((s, index) => (<ServiceCard icon={s.icon} text={s.text} key={index} />))
+                    }
+                </div>
             </div>
-        </div>
+        </>
     )
 }

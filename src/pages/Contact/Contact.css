@@ -1,4 +1,4 @@
-.contact_container{
+.contact_container {
     width: 100%;
     background: var(--primary);
     margin: auto;
@@ -7,27 +7,54 @@
     z-index: 500;
 }
 
-.contact_title{
+.contact_title {
     padding: 40px;
-    padding-left: 150px;
     font-size: 40px;
     color: #fff;
 }
 
 
-.contact_action{
+.contact_action {
     list-style: none;
     min-width: 200px;
 }
 
-.contact_action li {
-    font-size: 40px;
+.contact_container ul {
+    width: 600px;
 }
 
-.contact_form input{
+.contact_action li {
+    width: 200px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.contact_action li a {
+    color: white;
+}
+
+.contact_action li i {
+    display: block;
+}
+
+.contact_action li span {
+    font-size: 20px;
+}
+
+
+.contact_form input {
     width: 300px;
     height: 40px;
     border: none;
     border-bottom: 2px solid var(--secondary);
     background: var(--primary2);
+}
+
+@media screen and (min-width: 660px) {
+
+    .contact_title {
+        padding-left: 150px;
+    }
+
 }
